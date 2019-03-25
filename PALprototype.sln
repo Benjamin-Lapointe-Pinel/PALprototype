@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PALprototype", "PALprototype\PALprototype.csproj", "{81D0428A-D80E-4C80-8E0A-C8430153B41F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81D0428A-D80E-4C80-8E0A-C8430153B41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D0428A-D80E-4C80-8E0A-C8430153B41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D0428A-D80E-4C80-8E0A-C8430153B41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D0428A-D80E-4C80-8E0A-C8430153B41F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B5D9FB0-2191-4752-884D-30FB6EB8B272}
+	EndGlobalSection
+EndGlobal
