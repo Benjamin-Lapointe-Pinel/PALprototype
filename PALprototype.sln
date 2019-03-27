@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PALprototype", "PALprototyp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nez", "Nez\Nez.Portable\Nez.csproj", "{A5501535-A516-4364-AD84-A22C89C31F7D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nez.PipelineImporter", "Nez\Nez.PipelineImporter\Nez.PipelineImporter.csproj", "{D1398634-7C8A-48E5-9534-8A1EDA9F025A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5501535-A516-4364-AD84-A22C89C31F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5501535-A516-4364-AD84-A22C89C31F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5501535-A516-4364-AD84-A22C89C31F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1398634-7C8A-48E5-9534-8A1EDA9F025A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1398634-7C8A-48E5-9534-8A1EDA9F025A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1398634-7C8A-48E5-9534-8A1EDA9F025A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1398634-7C8A-48E5-9534-8A1EDA9F025A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,423 @@
+{
+	"frames": [
+
+		{
+			"filename": "walk-down/walk-down-0000.png",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 14,
+				"h": 18
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 14,
+				"h": 18
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-down/walk-down-0001.png",
+			"frame": {
+				"x": 0,
+				"y": 36,
+				"w": 13,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 1,
+				"w": 13,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-down/walk-down-0002.png",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"w": 14,
+				"h": 18
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 14,
+				"h": 18
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-down/walk-down-0003.png",
+			"frame": {
+				"x": 13,
+				"y": 36,
+				"w": 13,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 1,
+				"w": 13,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-left/walk-left-0000.png",
+			"frame": {
+				"x": 26,
+				"y": 34,
+				"w": 12,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 1,
+				"w": 12,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-left/walk-left-0001.png",
+			"frame": {
+				"x": 27,
+				"y": 17,
+				"w": 12,
+				"h": 16
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 2,
+				"w": 12,
+				"h": 16
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-left/walk-left-0002.png",
+			"frame": {
+				"x": 26,
+				"y": 34,
+				"w": 12,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 1,
+				"w": 12,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-left/walk-left-0003.png",
+			"frame": {
+				"x": 38,
+				"y": 33,
+				"w": 12,
+				"h": 16
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 2,
+				"w": 12,
+				"h": 16
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-right/walk-right-0000.png",
+			"frame": {
+				"x": 27,
+				"y": 0,
+				"w": 12,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 1,
+				"w": 12,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-right/walk-right-0001.png",
+			"frame": {
+				"x": 39,
+				"y": 0,
+				"w": 12,
+				"h": 16
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 2,
+				"w": 12,
+				"h": 16
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-right/walk-right-0002.png",
+			"frame": {
+				"x": 27,
+				"y": 0,
+				"w": 12,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 1,
+				"w": 12,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-right/walk-right-0003.png",
+			"frame": {
+				"x": 39,
+				"y": 16,
+				"w": 12,
+				"h": 16
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 2,
+				"w": 12,
+				"h": 16
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-up/walk-up-0000.png",
+			"frame": {
+				"x": 0,
+				"y": 18,
+				"w": 14,
+				"h": 18
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 14,
+				"h": 18
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-up/walk-up-0001.png",
+			"frame": {
+				"x": 14,
+				"y": 0,
+				"w": 13,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 1,
+				"y": 1,
+				"w": 13,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-up/walk-up-0002.png",
+			"frame": {
+				"x": 0,
+				"y": 18,
+				"w": 14,
+				"h": 18
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 14,
+				"h": 18
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		{
+			"filename": "walk-up/walk-up-0003.png",
+			"frame": {
+				"x": 14,
+				"y": 17,
+				"w": 13,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": true,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 1,
+				"w": 13,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 14,
+				"h": 18
+			},
+			"pivot": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "texture.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 51,
+			"h": 53
+		},
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:1cab232d99ab6437d41d69eda372e1c7:ace4c5d6b9d8ef45220a381f7f5e3928:afebaf100d2db0b87ec38dfe59d5374c$"
+	},
+	"spriteAnimationDetails": {
+		"walk-down": [ 0, 1, 2, 3 ],
+		"walk-left": [ 4, 5, 6, 7 ],
+		"walk-right": [ 8, 9, 10, 11 ],
+		"walk-up": [ 12, 13, 14, 15 ]
+	}
+}

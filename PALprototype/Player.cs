@@ -2,13 +2,18 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Nez;
+using Nez.LibGdxAtlases;
 using Nez.Sprites;
+using Nez.TextureAtlases;
+using Nez.TexturePackerImporter;
 using Nez.Textures;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PALprototype;
 
 namespace paPrototype
 {
@@ -33,52 +38,21 @@ namespace paPrototype
 
 		public override void onAddedToEntity()
 		{
-			Texture2D texture = entity.scene.content.Load<Texture2D>(@"player/player-spritesheet");
-			List<Subtexture> subtextures = Subtexture.subtexturesFromAtlas(texture, 14, 18);
-
-			mover = entity.addComponent(new Mover());
-			animation = entity.addComponent(new Sprite<Animations>(subtextures[0]));
+			//TODO: factory
+			//TODO: test with lgbdx
+			TexturePackerAtlas atlas = entity.scene.content.Load<TexturePackerAtlas>(@"player/atlas");
+			animation = entity.addComponent(new Sprite<Animations>());
+			animation.addAnimation(Animations.WalkDown, atlas.getSpriteAnimation("walk-down"));
+			animation.addAnimation(Animations.WalkUp, atlas.getSpriteAnimation("walk-up"));
+			animation.addAnimation(Animations.WalkLeft, atlas.getSpriteAnimation("walk-left"));
+			animation.addAnimation(Animations.WalkRight, atlas.getSpriteAnimation("walk-right"));
 			animationKey = Animations.WalkDown;
 
-			animation.addAnimation(Animations.WalkDown, new SpriteAnimation(new List<Subtexture>()
-			{
-				subtextures[0],
-				subtextures[1],
-				subtextures[2],
-				subtextures[3]
-			}));
-			animation.addAnimation(Animations.WalkUp, new SpriteAnimation(new List<Subtexture>()
-			{
-				subtextures[4],
-				subtextures[5],
-				subtextures[6],
-				subtextures[7]
-			}));
-			animation.addAnimation(Animations.WalkLeft, new SpriteAnimation(new List<Subtexture>()
-			{
-				subtextures[8],
-				subtextures[9],
-				subtextures[10],
-				subtextures[11]
-			}));
-			animation.addAnimation(Animations.WalkRight, new SpriteAnimation(new List<Subtexture>()
-			{
-				subtextures[12],
-				subtextures[13],
-				subtextures[14],
-				subtextures[15]
-			}));
-
-			setupInput();
-		}
-
-		void setupInput()
-		{
+			mover = entity.addComponent(new Mover());
 			xAxisInput = new VirtualIntegerAxis();
 			xAxisInput.nodes.Add(new Nez.VirtualAxis.GamePadDpadLeftRight());
 			xAxisInput.nodes.Add(new Nez.VirtualAxis.GamePadLeftStickX());
 			xAxisInput.nodes.Add(new Nez.VirtualAxis.KeyboardKeys(VirtualInput.OverlapBehavior.TakeNewer, Keys.A, Keys.D));
-
 			yAxisInput = new VirtualIntegerAxis();
 			yAxisInput.nodes.Add(new Nez.VirtualAxis.GamePadDpadUpDown());
 			yAxisInput.nodes.Add(new Nez.VirtualAxis.GamePadLeftStickY());
